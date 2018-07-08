@@ -3,7 +3,7 @@ layout: post
 title: Analysis of MTA data
 ---
 
-#### Introduction
+## Introduction
 
 Our team at  Super Awesome Data Scientist, Inc. set out to form a partnership with the well known women's tech organization: Women Tech, Women Yes. In order to do so, we set out to implement a strategy to increase awareness, attendance, and ultimately, donations at their annual Summer Gala.
 
@@ -36,10 +36,22 @@ This allowed us to generate a list of expected donors from each subway station l
 
 ### Results
 
-### Conclusion
+Below is the list of optimal subway stations to place volunteer staff to hand out flyers and gather email addresses for attendance at the Summer Gala. However, depending on the number of resources available, it's up to Women Tech, Women Yes to determine how to allocate their staff as they see fit.
 
-Stuff.
+| Subway Station | Foot Traffic (people) | Number High Priced Restaurants | Sales Reps Reqd. | Donors |
+| ---------------|-----------------------|--------------------------------|------------------|--------|
+| 3rd Avenue - 149 St | 6436 | 37 | 3 | 19 |
+| Brighton Beachn | 5762 | 38 | 2 | 19 |
+| 167 St | 7851 | 36 | 3 | 18 |
+| 161 St/Yankee Stadium | 7522 | 36 | 3 | 18 |
+| 149 St/Grand Conc | 4911 | 37 | 2 | 18 |
+| Flushing-Main | 29208 | 34 | 12 | 17 |
+| Kings Highway | 10528 | 33 | 4 | 17 |
+| 5th Avenue | 9099 | 34 | 4 | 17 |
+| 103 St - Corona | 8268 | 35 | 3 | 17 |
+| Fordham Rd | 7623 | 34 | 3 | 17 |
 
 ### Recommendation
 
-Do things.
+Given our analysis, we highly recommend Women Tech, Women Yes to allocate their staff at the above locations in order to maximize their attendance and donation quantity at their Summer Gala 2019. We know that our guidance will lead towards greater awareness for this wonderful event!
+
