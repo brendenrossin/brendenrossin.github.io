@@ -38,8 +38,8 @@ This allowed us to generate a list of expected donors from each subway station l
 
 Below is the list of optimal subway stations to place volunteer staff to hand out flyers and gather email addresses for attendance at the Summer Gala. However, depending on the number of resources available, it's up to Women Tech, Women Yes to determine how to allocate their staff as they see fit.
 
-| Subway Station | Foot Traffic (people) | Number High Priced Restaurants | Sales Reps Reqd. | Donors |
-| ---------------|-----------------------|--------------------------------|------------------|--------|
+| Subway Station | Foot Traffic (people) | Number of High Priced Restaurants | Sales Reps Required | Donors |
+| ---------------|:---------------------:|:------------------------------:|:----------------:|:------:|
 | 3rd Avenue - 149 St | 6436 | 37 | 3 | 19 |
 | Brighton Beachn | 5762 | 38 | 2 | 19 |
 | 167 St | 7851 | 36 | 3 | 18 |
