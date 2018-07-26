@@ -33,7 +33,18 @@ I then created dummy variables for the 9 remaining positions (including Designat
 
 ![Image Missing]({{"/assets/Team_vs_Salary.png"|https://github.com/brendenrossin/brendenrossin.github.io/blob/master/assets/Screen%20Shot%202018-07-19%20at%208.35.44%20PM.png}})
 
+Next, before creating the model, I wanted to determine how my dependent variable, salary, and my features were distributed and how they correlated to each other. It was immediately obvious that salaries aren't normally distributed, with a relatively small amount of players with large contracts, and the majority of players huddled in similar "small" contracts. Therefore I tried both a log transformation and a boxcox transformation to make my data more normally distributed, with a boxcox transformation having a better result. Lastly, it turned out that taking the square root of a players all star count was a better determinant in predicting a players salary as well.
+
 ### Results
 
+Ultimately, after multiple iterations of model building with ScikitLearn, I determined that the 9 most useful determinants of a players salary were OBP (+) (On Base Percentage), DH (positional) (+), the number of years a player was an All Star (+), First Basemen (positional) (+), Second Basemen (positional) (-), dWAR (+), Age (-), RBI (+), and total games played (+).
+
+On base percentage was far and away the biggest factor in determining a players salary, which intuitively makes sense given that we are basing players salaries off their batting stats. The percentage of time a player is able to get on base when batting is a very obvious measure for how good a player is at batting. Therefore, our model seems to make sense and is using sensical features in its predictions.
+
+### Steps for the future
 
 Going forward, it would be helpful to look at player's salaries right after their contracts were negotiated in case a decline in performance over the course of a long contract influenced my model. In addition, it would be helpful to have a dataset with more data points, with all the cuts made to the dataset decreasing my total observations down to approximately 240 players.
+
+I would love to add in in-depth defensive statistics as well to make my model more robust, rather than simply relying on a players offense to determine their salaries.
+
+Lastly, I would love to create a model to help determine pitchers salaries as well, as they were completely ignored for the purposes of this project.
