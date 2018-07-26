@@ -16,7 +16,7 @@ In order to create my model, I first had to gather the necessary data involved, 
 Having obtained the web addresses for each player, I then scraped each player's page to find their batting statistics in the 'Standard Batting' table, their overall defensive Wins Above Replacement fromt the 'Player Value--Batting' table, and their salary information in the 'Salary' table. In addition, I pulled their full name from the Player Information header on the page in an attempt to distinguish individual players with similar names.
 
 ##### Tables used to extract relevant information
-![Image Missing]({{"/assets/Final Recommendation Map.png"|(https://github.com/brendenrossin/brendenrossin.github.io/blob/master/assets/Screen%20Shot%202018-07-25%20at%205.33.35%20PM.png)
+![Image Missing]({{"/assets/Giancarlo Stanton.png"|https://github.com/brendenrossin/brendenrossin.github.io/blob/master/assets/Screen%20Shot%202018-07-25%20at%205.33.35%20PM.png}})
 
 
 ### Results
